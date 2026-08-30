@@ -1,0 +1,45 @@
+.footer {
+  background: var(--ink);
+  color: #E7EAF0;
+  padding: 3rem 1.5rem 1.5rem;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.label {
+  font-family: var(--font-mono);
+  color: var(--code-green);
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.socials a {
+  color: #E7EAF0;
+  opacity: 0.85;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+.socials a:hover {
+  opacity: 1;
+  color: var(--accent);
+}
+
+.copy {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}

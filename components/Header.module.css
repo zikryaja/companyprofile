@@ -1,0 +1,84 @@
+.header {
+  padding: 4rem 1.5rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.window {
+  width: 100%;
+  max-width: 780px;
+  background: var(--surface);
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 50px -20px rgba(27, 36, 48, 0.25);
+  overflow: hidden;
+}
+
+.titlebar {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1rem;
+  background: #EFF2F1;
+  border-bottom: 1px solid var(--border);
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.filename {
+  margin-left: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.body {
+  padding: 2.5rem 2rem 3rem;
+}
+
+.comment {
+  font-family: var(--font-mono);
+  color: var(--code-green);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+  color: var(--primary);
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.tagline {
+  margin-top: 1.25rem;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  max-width: 46ch;
+}
+
+@media (max-width: 640px) {
+  .body {
+    padding: 2rem 1.25rem 2.25rem;
+  }
+}
