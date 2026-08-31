@@ -6,7 +6,15 @@ export default function Footer() {
       <div className={styles.content}>
         <div className={styles.block}>
           <p className={styles.label}>Alamat</p>
-          <p>SMK Citra Negara, Jl. Tanah Baru Jl. Kemiri Jaya No.99, Beji, Kecamatan Beji, Kota Depok, Jawa Barat 16421</p>
+          <p>
+            
+            <a href="https://maps.app.goo.gl/GqrW6gy8iignX3Z47"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SMK Citra Negara, Jl. Tanah Baru Jl. Kemiri Jaya No.99, Beji, Kecamatan Beji, Kota Depok, Jawa Barat 16421
+            </a>
+          </p>
         </div>
 
         <div className={styles.block}>
