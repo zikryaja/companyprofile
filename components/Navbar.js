@@ -11,6 +11,7 @@ export default function Navbar() {
       <div className={styles.links}>
         <a href="#tentang">Tentang</a>
         <a href="#layanan">Layanan</a>
+        <a href="#testimoni">Testimoni</a>
         <a href="#kontak" className={styles.cta}>Hubungi Kami</a>
       </div>
     </nav>
