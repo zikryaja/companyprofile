@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <p className={styles.copy}>© 2026 PPLG Dev. Dibuat oleh siswa PPLG.</p>
+      <p className={styles.copy}>© 2026 PPLG Dev. Dibuat oleh Muhammad Zikry Faiq Al Bani XI PPLG 1.</p>
     </footer>
   );
 }
