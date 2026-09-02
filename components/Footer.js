@@ -12,7 +12,8 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              SMK Citra Negara, Jl. Tanah Baru Jl. Kemiri Jaya No.99, Beji, Kecamatan Beji, Kota Depok, Jawa Barat 16421
+              SMK Citra Negara, Jl. Tanah Baru Jl. Kemiri Jaya No.99, Beji, <br />
+              Kecamatan Beji, Kota Depok, Jawa Barat 16421
             </a>
           </p>
         </div>
